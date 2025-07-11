@@ -535,6 +535,9 @@
             background-color: #2e1a69;
             color: white;
         }
+        .list-item{
+            font-size: 12px !important;
+        }
     </style>
     
 
@@ -555,17 +558,17 @@
                         B.Tech Programs                                                                                                                                
                     </a>
                     <ul class="elementskit-dropdown elementskit-submenu-panel dropdown" style="width:max-content; flex-direction:column; align-items:flex-start;">
-                        <li class="menu-item nav-item">
-                            <a href="{{route('view-courses', 'cse')}}" class="dropdown-item">Computer Science and Engineering</a>
+                        <li class="menu-item nav-item ">
+                            <a href="{{route('view-courses', 'cse')}}" class="dropdown-item list-item">Computer Science and Engineering</a>
                         </li>
-                        <li class="menu-item nav-item">
-                            <a href="{{route('view-courses', 'ec')}}" class="dropdown-item">Electronics & Communication Engineering</a>
+                        <li class="menu-item nav-item ">
+                            <a href="{{route('view-courses', 'ec')}}" class="dropdown-item list-item">Electronics & Communication Engineering</a>
                         </li>
-                        <li class="menu-item nav-item">
-                            <a href="{{route('view-courses', 'csit')}}" class="dropdown-item">Computer Science & Information Technology</a>
+                        <li class="menu-item nav-item ">
+                            <a href="{{route('view-courses', 'csit')}}" class="dropdown-item list-item">Computer Science & Information Technology</a>
                         </li>
-                        <li class="menu-item nav-item">
-                            <a href="{{route('view-courses', 'aiml')}}" class="dropdown-item">CSE (Artificial Intelligence & Machine Learning)</a>
+                        <li class="menu-item nav-item ">
+                            <a href="{{route('view-courses', 'aiml')}}" class="dropdown-item list-item">CSE (Artificial Intelligence & Machine Learning)</a>
                         </li>                                                                 
                     </ul>  
                 </li>
@@ -575,33 +578,33 @@
                         Admission
                     </a>
                     <ul class="elementskit-dropdown elementskit-submenu-panel dropdown" style="width:max-content; flex-direction:column; align-items:flex-start;">
-                        <li class="menu-item nav-item">
-                            <a href="{{route('admissions')}}" class="dropdown-item">Admissions cell @ {{env('COLLEGE_NAME_SHORT')}}</a>
+                        <li class="menu-item nav-item ">
+                            <a href="{{route('admissions')}}" class="dropdown-item list-item">Admissions cell @ {{env('COLLEGE_NAME_SHORT')}}</a>
                         </li>
-                        <li class="menu-item nav-item">
-                            <a href="{{route('apply_now')}}" class="dropdown-item">Apply Now</a>
+                        <li class="menu-item nav-item ">
+                            <a href="{{route('apply_now')}}" class="dropdown-item list-item">Apply Now</a>
                         </li>
-                        <li class="menu-item nav-item">
-                            <a href="{{route('coursesoffered')}}" class="dropdown-item">Courses Offered</a>
+                        <li class="menu-item nav-item ">
+                            <a href="{{route('coursesoffered')}}" class="dropdown-item list-item">Courses Offered</a>
                         </li>
-                        <li class="menu-item nav-item">
-                            <a href="{{route('eligibility')}}" class="dropdown-item">Eligibility Criteria</a>
+                        <li class="menu-item nav-item ">
+                            <a href="{{route('eligibility')}}" class="dropdown-item list-item">Eligibility Criteria</a>
                         </li>                                    
-                        <li class="menu-item nav-item">
-                            <a href="{{route('doc-checklist')}}" class="dropdown-item">Document Checklist</a>
+                        <li class="menu-item nav-item ">
+                            <a href="{{route('doc-checklist')}}" class="dropdown-item list-item">Document Checklist</a>
                         </li>
-                        <li class="menu-item nav-item">
-                            <a href="{{route('anti-ragging')}}" class="dropdown-item">Anti-Ragging Policy</a>
+                        <li class="menu-item nav-item ">
+                            <a href="{{route('anti-ragging')}}" class="dropdown-item list-item">Anti-Ragging Policy</a>
                         </li>
-                        <li class="menu-item nav-item">
-                            <a href="{{route('view-rules')}}" class="dropdown-item">College Rules and Regulations</a>
+                        <li class="menu-item nav-item ">
+                            <a href="{{route('view-rules')}}" class="dropdown-item list-item">College Rules and Regulations</a>
                         </li>                                    
-                        <li class="menu-item nav-item">
-                            <a href="{{route('admission-policy')}}" class="dropdown-item">Admission Policy</a>
+                        <li class="menu-item nav-item ">
+                            <a href="{{route('admission-policy')}}" class="dropdown-item list-item">Admission Policy</a>
                         </li>
 
-                        <li class="menu-item nav-item">
-                            <a href="#" class="dropdown-item">Scholarships</a>
+                        <li class="menu-item nav-item ">
+                            <a href="#" class="dropdown-item list-item">Scholarships</a>
                         </li>
                     </ul>
                 </li>                                                                  
@@ -680,13 +683,13 @@
 
             <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="programsDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Programs
+                  B.TECH Programs
                 </a>
                 <ul class="dropdown-menu" aria-labelledby="programsDropdown">
-                  <li><a class="dropdown-item text-dark" href="{{route('view-courses', 'bba')}}">BBA</a></li>
-                  <li><a class="dropdown-item text-dark" href="{{route('view-courses', 'bca')}}">BCA</a></li>
-                  <li><a class="dropdown-item text-dark" href="{{route('view-courses', 'mba')}}">MBA</a></li>
-                  <li><a class="dropdown-item text-dark" href="{{route('view-courses', 'mca')}}">MCA</a></li>
+                  <li><a class="dropdown-item text-dark" href="{{route('view-courses', 'cse')}}">Computer Science and Engineering</a></li>
+                  <li><a class="dropdown-item text-dark" href="{{route('view-courses', 'ec')}}">Electronics & Communication Engineering</a></li>
+                  <li><a class="dropdown-item text-dark" href="{{route('view-courses', 'csit')}}">Computer Science & Information Technology</a></li>
+                  <li><a class="dropdown-item text-dark" href="{{route('view-courses', 'aiml')}}">CSE (Artificial Intelligence & Machine Learning)</a></li>
                 </ul>
             </li>
 

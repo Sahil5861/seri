@@ -128,7 +128,6 @@
       .accreditation-logos {
         display: flex;
         justify-content: flex-start;
-        flex-wrap: wrap;
         gap: 30px;
       }
       
@@ -230,6 +229,9 @@
         .banner-content2 p{
             font-size: 12px !important;
         }
+        .about-the-prog{
+            flex-direction: column;
+        }
     }
 </style>
 @section('main_content') 
@@ -330,7 +332,7 @@
     <div class="container p-4" style="padding: 40px; position:unset;">
         <div class="navbar-box" style="position: sticky;top: 85px; margin-bottom:100px;z-index: 994; background-color:#fff;padding:5px;">
             <nav class="navbar" style="box-shadow: 0px 4px 10px rgba(0, 0, 0, 1);">
-                <ul style="display: flex;">
+                <ul class='about-the-prog' style="display: flex;">
                     <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-24 nav-item elementskit-mobile-builder-content" data-vertical-menu="750px"><a href="#About_the_programme">About the Programme</a></li>
                     <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-24 nav-item elementskit-mobile-builder-content" data-vertical-menu="750px"><a href="#eligibility">Eligibility</a></li>
                     <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-24 nav-item elementskit-mobile-builder-content" data-vertical-menu="750px"><a href="#curriculum_structure">Curriculum Structure</a></li>

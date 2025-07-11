@@ -4,8 +4,10 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
 
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-
 <style>
+    .autoPopupModal .modal-content{z-index:10}.modal-header{background-color:#fff;text-align:center;flex-direction:column;border-bottom:none}.modal-header h5{color:#b30000;font-weight:bold}.modal-title-sub{font-size:14px;margin-top:5px;color:#555}.modal-content{border-radius:8px;padding:20px}.btn-danger{background-color:#b30000;border:none}.modal-header .btn-close{background-color:transparent!important}.form-check-input:checked{background-color:#b30000;border-color:#b30000}.form-check-label a{color:#b30000;text-decoration:none}.w-50{width:50%!important}.owl-carousel .item{padding:10px 0}.owl-carousel .item img{width:90%;height:200px;object-fit:contain;border-radius:10px;background-blend-mode:color-burn;mix-blend-mode:multiply}.carousel-fade-wrapper{position:relative;overflow:hidden}.carousel-fade-wrapper::before,.carousel-fade-wrapper::after{content:'';position:absolute;top:0;width:60px;height:100%;z-index:2;pointer-events:none}.carousel-fade-wrapper::before{left:0;background:linear-gradient(to right,white,transparent)}.carousel-fade-wrapper::after{right:0;background:linear-gradient(to left,white,transparent)}.video-container{height:80vh;display:flex;justify-content:center;align-items:center;position:relative}.video-container video{width:100%;height:100%;object-fit:contain}.video-container video::before{content:'';position:absolute;top:0;left:0;width:100%;height:100%;background:rgba(0,0,0,.3);z-index:3}.video-overlay{position:absolute;top:0;left:0;width:100%;height:100%;display:flex;justify-content:flex-end;flex-direction:column;align-content:center;color:#fff;padding-bottom:100px}.video-container h2{color:#fff!important}@media screen and (max-width:500px){.video-container{height:max-content}.video-overlay{position:absolute;top:100%;left:50%;transform:translate(-50%,-50%)}.video-overlay p{font-size:14px!important}.video-overlay h2{color:#fff!important;font-size:16px!important}.elementor-304 .elementor-element.elementor-element-5a80b44{padding-right:30px}}.mdc-text-field--no-label:not(.mdc-text-field--textarea) .mat-mdc-form-field-input-control.mdc-text-field__input,.mat-mdc-text-field-wrapper .mat-mdc-form-field-input-control{border:none!important;padding:0!important}.tabs-container{width:100%;max-width:1280px;margin:0 auto 85px;position:relative}.tab-buttons{display:flex;justify-content:space-around;padding:10px;border-radius:10px}.tab-button{flex:1;padding:10px;text-align:center;cursor:pointer;font-size:16px;transition:background .3s ease;border-radius:10px;position:relative}.tab-button.active{color:#000;border-bottom:2px solid red;border-radius:0}.tab-content{display:none;padding:50px;background:#fff;border-radius:10px;box-shadow:0 4px 8px rgba(0,0,0,.1);background-size:cover}.tab-content.active{display:block}.tab-content-card{background:#fff;border-radius:10px;padding:50px 30px;width:500px}.tab-content h2{font-size:40px;margin:0}.tab-content span{color:red}.tab-content p{font-size:18px;color:#000;opacity:.9;margin:20px 0 0}.top-recruiters-title span{margin-left:-160px}.faq-section{background:#f0f0f0;padding:60px 0 96px;margin-bottom:60px}.break-faq{display:flex;gap:10px;width:1280px;margin:auto}.blog-grid{background-color:#333;margin-top:20px}.blog-items{box-shadow:rgba(149,157,165,.2) 0 8px 24px;border-radius:10px;background-color:#fff;border:1px solid #000}.blog-items .blog-img img{border-radius:10px 10px 0 0}.blog-items .blog-cont{background-color:#fff}.blog-items a:hover{color:#000}@media screen and (max-width:1280px){.tabs-container{max-width:900px}}@media screen and (max-width:900px){.tabs-container{max-width:750px}.blog-grid{grid-template-columns:auto auto}}@media screen and (max-width:750px){.tabs-container{max-width:650px}.blog-grid{grid-template-columns:auto auto}}@media screen and (max-width:500px){.tabs-container{width:90%;margin:auto}.tab-content{padding:33px 20px 37px;margin:10px 0}.tab-content-card{width:auto;padding:27px 19px}.tab-content p{font-size:14px;color:#000;opacity:.9;margin:20px 0 0}.tab-buttons{overflow:auto}.tab-button{font-size:13px;white-space:nowrap}.tab-content h2{font-size:26px}.blog-grid{display:block}.e-con>.e-con-inner>.elementor-widget>.elementor-widget-container,.e-con>.elementor-widget>.elementor-widget-container{height:auto}.blog-lm{padding-bottom:10px}.blog-grid .blog-items .blog-cont{padding:18px 18px 0}.carousel-item{height:65vh!important;position:relative}.carousel-item img{object-fit:cover;width:100%;height:100%;z-index:1}.carousel-item video{width:100%;height:100%;object-fit:cover;z-index:1}.carousel-indicators{bottom:10px}.crausel-btn{background-color:transparent!important}.crausel-btn span{columns:#000!important}.carousel-caption{bottom:0;top:5rem!important}}.red-line{position:relative}.red-line::before{content:'';position:absolute;top:100%;left:0;width:60%;height:5px;background-color:var(--e-global-color-accent)}.elementor-element-6aec9e8 .elementor-widget-container h2{font-size:2rem}.elementor-element-6aec9e8 .elementor-widget-container i{font-size:1.5rem}.ekit-wid-con .elementskit-accordion .elementskit-card-header>.elementskit-btn-link{background:none!important}.ekit-wid-con .elementskit-accordion .elementskit-card-body{padding:20px 30px!important}.news-section,.faq-section{background:#fff;padding:20px;border-radius:8px}.news-section{background:transparent}.accordion-button{background:#ddd!important;color:#000!important}.accordion-button:hover{color:#000!important;font-weight:bold}.accordion-button{outline:none;border:none}.accordion{width:100%;max-width:600px;margin:20px auto}.accordion-item{border-bottom:1px solid #ccc}.accordion-header{background:#f4f4f4;padding:15px;cursor:pointer;font-size:18px;transition:background .3s;user-select:none}.accordion-header:hover{background:#ddd}.accordion-content{max-height:0;overflow:hidden;padding:0 15px;background:#fff;transition:max-height .3s ease-out,padding .3s ease-out}.accordion-item.active .accordion-content{max-height:200px;padding:15px}
+</style>
+{{-- <style>
 
     .autoPopupModal .modal-content{
         z-index: 10;
@@ -145,15 +147,18 @@
         }
         .video-overlay h2{
             color: #fff !important;
-            font-size: 20px !important;
+            font-size: 16px !important;
+        }
+        .elementor-304 .elementor-element.elementor-element-5a80b44 {
+            padding-right: 30px;
         }
     }
     .mdc-text-field--no-label:not(.mdc-text-field--textarea) .mat-mdc-form-field-input-control.mdc-text-field__input, .mat-mdc-text-field-wrapper .mat-mdc-form-field-input-control{
         border: none !important;
         padding: 0 !important;
     }
-</style>
-    <style>
+</style> --}}
+{{-- <style>
        .tabs-container {
            width: 100%;
             max-width: 1280px;
@@ -386,7 +391,7 @@
         font-size: 1.5rem;        
     }
         
-    </style>
+</style> --}}
 @section('main_content')    
 <div data-elementor-type="wp-post" data-elementor-id="304" class="elementor elementor-304" style="background-color: #fff;"> 
     {{-- <div class="elementor-element elementor-element-e7b1143 e-flex e-con-boxed e-con e-parent e-lazyloaded"
@@ -1273,7 +1278,11 @@
             </div>            
         </div>
     </div>
-    <style>
+
+
+
+    
+    {{-- <style>
         .ekit-wid-con .elementskit-accordion .elementskit-card-header>.elementskit-btn-link{
             background: none !important;
         }
@@ -1333,8 +1342,14 @@
             max-height: 200px;
             padding: 15px;
         }
-    </style>
-    <!--FAQ-->
+    </style> --}}
+
+
+
+
+
+
+
     {{-- <section class="faq-section" style="background:#f0f0f0">
         <div class="e-con-inner break-faq">
             <div class="faq-heading elementor-element elementor-element-de36f6f e-con-full e-flex e-con e-child" data-id="de36f6f" data-element_type="container">
@@ -1593,12 +1608,16 @@
         </div> --}}
 
         <div class="container p-0 video-container  mb-4">
-            <video autoplay muted loop playsinline >
-                <source src="{{asset('images/seri-video.mp4')}}" type="video/mp4">                
-            </video>
+            <div style="position: relative; display: inline-block;">
+                <video autoplay muted loop playsinline style="display: block; width: 100%; height: auto;">
+                    <source src="{{asset('images/seri-video.mp4')}}" type="video/mp4">
+                </video>
+                
+                <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.4); pointer-events: none;"></div>
+            </div>
 
             <div class="video-overlay">
-                <h2 class="text-center">Step Inside Our World <br> To Get World-class Campus Experience</h2>
+                <h2 class="text-center mt-6">Step Inside Our World <br> To Get World-class Campus Experience</h2>
                 <p class="text-center">{{env('COLLEGE_NAME_MID')}} Engineering and Research Institute is a place where innovation meets ambition— <br>cutting-edge labs, industry-driven learning, and a campus built for future pioneers.</p>
             </div>
         </div>
