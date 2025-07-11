@@ -8,6 +8,9 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Redirect;
 use Illuminate\View\View;
+use Illuminate\Support\Facades\Hash;
+
+use App\Models\User;
 
 class ProfileController extends Controller
 {
@@ -16,7 +19,7 @@ class ProfileController extends Controller
      */
     public function edit(Request $request): View
     {
-        return view('profile.edit', [
+        return view('admin.profile', [
             'user' => $request->user(),
         ]);
     }
@@ -24,17 +27,48 @@ class ProfileController extends Controller
     /**
      * Update the user's profile information.
      */
-    public function update(ProfileUpdateRequest $request): RedirectResponse
+    public function update(Request $request)
     {
-        $request->user()->fill($request->validated());
+        $request->validate([
+            'username' => 'required|string|max:255',            
+            'email' => 'required|string|email|max:255|unique:users,email,' . Auth::id(),            
+        ]);
+        
+        
+        $user = User::where('id', $request->input('id'))->first();        
 
-        if ($request->user()->isDirty('email')) {
-            $request->user()->email_verified_at = null;
+        if ($user) {
+            $user->name = $request->username;
+            $user->email = $request->email;
+            $user->save();
+            return redirect()->back()->with('message', 'User Updated Successfully !');
         }
 
-        $request->user()->save();
 
-        return Redirect::route('profile.edit')->with('status', 'profile-updated');
+    }
+
+
+    public function update_password(Request $request){
+        $request->validate([
+            'cur_password' => 'required',
+            'new_password' => 'required',
+            'confirm_password'  => 'required|same:new_password',        
+        ]);
+
+        $user = User::where('id', $request->id)->first();
+
+        if (!$user) {
+            return back()->with('error', 'User not found.');
+        }
+            
+        if (!Hash::check($request->cur_password, $user->password)) {
+            return back()->with('error', 'Incorrect Password.');
+        }
+        
+        $user->password = Hash::make($request->new_password);
+        $user->save();
+
+        return back()->with('message', 'Password updated successfully.');
     }
 
     /**
