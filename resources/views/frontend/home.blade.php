@@ -958,7 +958,7 @@
                                 data-id="9bf72fb" data-element_type="widget" data-widget_type="image.default">
                                 <div class="elementor-widget-container">
                                     <img loading="lazy" decoding="async" width="1280" height="853"
-                                        src="{{asset('courses2/ece.png')}}"
+                                        src="{{asset('courses2/ece.webp')}}"
                                         class="attachment-full size-full wp-image-1093"
                                         alt="Young students painting on canvas during lesson in faculty of arts university">
                                 </div>
@@ -1009,7 +1009,7 @@
                                 <div class="elementor-widget-container">
                                     <!--<img src="https://seri.net.in/images/coding-1841550_1280.jpg">-->
                                     <img loading="lazy" decoding="async" width="1280" height="853"
-                                        src="{{asset('courses/csit.jpg')}}"
+                                        src="{{asset('courses/csit.webp')}}"
                                         class="attachment-full size-full wp-image-1555"
                                         alt="Students of medicine using laptop while learning together in lecture hall at the university.">
                                 </div>
@@ -1054,7 +1054,7 @@
                                 data-id="740812f" data-element_type="widget" data-widget_type="image.default">
                                 <div class="elementor-widget-container">
                                     <img loading="lazy" decoding="async" width="1280" height="853"
-                                       src="{{asset('courses2/aiml2.jpg')}}"
+                                       src="{{asset('courses2/aiml2.webp')}}"
                                         class="attachment-full size-full wp-image-1520"
                                         alt="University students studying with teacher">
                                 </div>
