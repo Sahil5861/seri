@@ -42,6 +42,7 @@ Route::post('/save-inquiries', [HomeController::class, 'saveInquiry'])->name('sa
 
 Route::post('/add-enquiry', [HomeController::class, 'addEnquiry'])->name('add-enquiry');
 
+Route::get('get-cities', [HomeController::class, 'getCities'])->name('get-cities');
 
 Route::post('/send-otp', [OTPController::class, 'sendOTP'])->name('send.otp');
 

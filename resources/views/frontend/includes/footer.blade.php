@@ -7,6 +7,12 @@
       background-color: #213153;
       color: #fff;
     }
+    .btn-primary_2{
+      transition: all ease 1s;
+    }
+    .btn-primary_2:hover{
+      scale: 1.1;
+    }
     footer h3 {
       color: #fff !important;
     }
@@ -110,15 +116,15 @@
           </div>
           <div class="col-md-6 mb-3">
             <label class="mb-2">Your Email*</label>
-            <input type="email" name="email" class="form-control" max="10" maxlength="10" required autocomplete="new-password">
+            <input type="email" name="email" class="form-control"  required autocomplete="new-password">
           </div>
           <div class="col-md-6 mb-3">
             <label class="mb-2">Your Phone Number*</label>
-            <input type="tel" name="phone" class="form-control" required autocomplete="new-password">
+            <input type="text" name="phone" class="form-control" maxlength="10" required autocomplete="new-password" oninput="this.value = this.value.replace(/[^0-9]/g, '')">
           </div>          
           <div class="col-md-6 mb-3">
             <label class="mb-2">Select Program*</label>
-            <select class="form-control" name="specialization" id="select_program" required autocomplete="new-password">              
+            <select class="form-control" name="program" id="select_program" required autocomplete="new-password">              
               <option value="B.TECH" selected>Bachelor of Technology (B.TECH)</option>            
             </select>
           </div>
@@ -132,12 +138,16 @@
               <option value="ECE">ECE</option>              
             </select>
           </div>
+
+          <?php 
+            $states = \App\Models\State::all();          
+          ?>
           <div class="col-md-6 mb-3">
             <label class="mb-2">Your State*</label>
             {{-- <input type="text" name="state" class="form-control" required autocomplete="new-password"> --}}
-            <select name="state" id="state" style="border-color:#dbdbdb">
+            <select name="state" id="state" style="border-color:#dbdbdb" onchange="getCities(this);">
                 <option>Select your state</option>                        
-                <option value="Andhra Pradesh">Andhra Pradesh</option>
+                {{-- <option value="Andhra Pradesh">Andhra Pradesh</option>
                 <option value="Arunachal Pradesh">Arunachal Pradesh</option>
                 <option value="Assam">Assam</option>
                 <option value="Bihar">Bihar</option>
@@ -172,15 +182,18 @@
                 <option value="Jammu & Kashmir">Jammu & Kashmir (UT)</option>
                 <option value="Ladakh">Ladakh (UT)</option>
                 <option value="Lakshadweep">Lakshadweep (UT)</option>
-                <option value="Puducherry">Puducherry (UT)</option>                        
-            </select>
+                <option value="Puducherry">Puducherry (UT)</option>                         --}}
+                @foreach ($states as $state)
+                    <option value="{{$state->state}}" data-id="{{$state->id}}">{{$state->state}}</option>
+                @endforeach
+              </select>
           </div>
           <div class="col-md-6 mb-3">
             <label class="mb-2">Your City*</label>
-            <input type="text" name="city" class="form-control" required autocomplete="new-password">
+            <select name="city" id="city" style="border-color:#dbdbdb" class="city"></select>
           </div>          
-          <div class="col-12">
-            <button type="submit" class="btn btn-primary_2 px-5 submit-btn" style="padding:15px 25px !important; width:200px;">Submit</button>
+          <div class="col-12 text-right">
+            <button type="submit" class="btn btn-primary_2 px-5 submit-btn" style="padding:15px 25px !important; width:200px; float:right;">Submit</button>
           </div>
         </div>
       </form>
@@ -318,6 +331,23 @@
           });
       });
   });
+
+  function getCities(elem){
+    $('.city').empty();
+    let state = $(elem).val();
+    $.ajax({
+      type: 'GET',
+      url: "{{route('get-cities')}}",
+      data: {state: state},
+      success : function (response){        
+        if (response.status == true) {          
+          response.cities.forEach(city =>{
+            $('.city').append('<option value="'+city.city+'">'+city.city+'</option>');
+          })
+        }        
+      }
+    })
+  }
 
   const data = {
     'B.TECH' : ['CSE', 'AI & ML', 'CSE & IT', 'ECE']

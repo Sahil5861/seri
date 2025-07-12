@@ -1,4 +1,22 @@
 <style>
+
+    .spinner {
+        width: 16px;
+        height: 16px;
+        border: 2px solid #fff;
+        border-top: 2px solid transparent;
+        border-radius: 50%;
+        /* display: inline-block; */
+        display: none;
+        animation: spin 0.6s linear infinite;
+        vertical-align: middle;
+        margin-right: 5px;
+    }
+
+    @keyframes spin {
+        0% { transform: rotate(0deg); }
+        100% { transform: rotate(360deg); }
+    }
     .newpopup{
         position: fixed;
         top: 50%;
@@ -135,6 +153,8 @@
             font-size: 40px !important;
         }
 
+        
+
 
     }
 </style>
@@ -194,10 +214,13 @@
                     <option value="ECE">ECE</option> 
                 </select>
             </div>
+            <?php 
+                $states = \App\Models\State::all();          
+            ?>
             <div class="form-group">                        
-                <select name="state" id="state">
+                <select name="state" id="state" style="border-color:#dbdbdb" onchange="getCities(this);">
                     <option>Select your state</option>                        
-                    <option value="Andhra Pradesh">Andhra Pradesh</option>
+                    {{-- <option value="Andhra Pradesh">Andhra Pradesh</option>
                     <option value="Arunachal Pradesh">Arunachal Pradesh</option>
                     <option value="Assam">Assam</option>
                     <option value="Bihar">Bihar</option>
@@ -232,13 +255,16 @@
                     <option value="Jammu & Kashmir">Jammu & Kashmir (UT)</option>
                     <option value="Ladakh">Ladakh (UT)</option>
                     <option value="Lakshadweep">Lakshadweep (UT)</option>
-                    <option value="Puducherry">Puducherry (UT)</option>                        
+                    <option value="Puducherry">Puducherry (UT)</option>                         --}}
+                    @foreach ($states as $state)
+                        <option value="{{$state->state}}" data-id="{{$state->id}}">{{$state->state}}</option>
+                    @endforeach
                 </select>
             </div>
             <div class="form-group">
-                <input type="text" name="city" id="city" class="form-control" required placeholder="Enter Your City" autocomplete="new-password">
+                <select name="city" id="city" style="border-color:#dbdbdb" class="city"></select>
             </div>
-            <button class="btn btn-sm btn-primary" style="width: 100px;" type="submit">Submit</button>
+            <button class="btn btn-sm btn-primary" style="width: 100px;" type="submit"> <span class="spinner"></span>Submit</button>
             <div class="box" style="width: 100%; display: flex; align-items: center; gap: 10px;padding: 10px;">
                 <input type="checkbox" id="customControlAutosizing" name="checked" style="margin: 0; width: 16px; height: 16px;">
                 <label for="customControlAutosizing" style="margin-bottom: 0; font-size: 11px; user-select:none;">
@@ -291,12 +317,14 @@ $(document).ready(function () {
             },
             beforeSend: function () {
                 // Optional: show loading spinner or disable button
+                $('.spinner').css('display', 'inline-block');
             },
             success: function (response) {                
                 $('#successalert').fadeIn(); // Show the alert
                 form[0].reset(); // Reset form
+                $('.spinner').css('display', 'none');
                 setTimeout(() => {
-                    $('#successalert').fadeOut();
+                    $('#successalert').fadeOut();                    
                 }, 5000);
 
                 
