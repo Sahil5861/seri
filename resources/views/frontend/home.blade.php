@@ -2245,7 +2245,7 @@
                     </p>
                     @php
                         $words = explode(' ', strip_tags($blog->meta_description));
-                        $excerpt = implode(' ', array_slice($words, 0, 20)) . (count($words) > 25 ? '...' : '');
+                        $excerpt = implode(' ', array_slice($words, 0, 3)) . (count($words) > 3 ? '...' : '');
                     @endphp
 
                     <p class="card-text">{{ $excerpt }}</p>                    

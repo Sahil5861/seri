@@ -7,6 +7,8 @@ use Illuminate\Http\Request;
 use App\Models\Blog;
 use App\Models\Enquiry;
 use App\Models\BlogComment;
+use App\Models\State;
+use App\Models\City;
 use App\Models\AdmissionEnquiry;
 use App\Models\AdmissionApply;
 
@@ -52,6 +54,24 @@ class HomeController extends Controller
         }
 
                    
+    }
+
+    public function getCities(Request $request){
+        $stateId  = State::where('state', $request->state)->first()->id;
+        $cities = City::where('state_id', $stateId)->get();
+
+        if (count($cities) > 0) {
+            return response()->json([
+                'status' => true,
+                'cities' => $cities
+            ]);
+        }
+        else{
+            return response()->json([
+                'status' => false,                
+            ]);
+        }
+
     }
 
 
