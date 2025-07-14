@@ -3,7 +3,7 @@
 
 @section('main_content')   
 <div data-elementor-type="wp-post" data-elementor-id="1184" class="elementor elementor-1184" style="background-color: #fff;">
-    <div class="elementor-element elementor-element-9c0d281 e-flex e-con-boxed e-con e-parent e-lazyloaded" style="background-image: url('../images/red_buildings_households.jpg')"
+    <div class="elementor-element elementor-element-9c0d281 e-flex e-con-boxed e-con e-parent e-lazyloaded" style="background-image: url('../images/red_buildings_households.webp')"
         data-id="9c0d281" data-element_type="container"
         data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
         <div class="e-con-inner">
@@ -64,7 +64,7 @@
                     data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;}" data-widget_type="image.default">
                     <div class="elementor-widget-container">
                         <img decoding="async" width="1080" height="721"
-                            src="{{asset('images/about_us2.jpg')}}"
+                            src="{{asset('images/about_us2.webp')}}"
                             class="attachment-full size-full wp-image-1253" alt=""                            
                             sizes="(max-width: 1080px) 100vw, 1080px">
                     </div>
@@ -393,7 +393,7 @@
                     data-widget_type="image.default">
                     <div class="elementor-widget-container">
                         <img decoding="async" width="853" height="1280"
-                            src="{{asset('images/college_students.png')}}"
+                            src="{{asset('images/college_students.webp')}}"
                             class="attachment-full size-full wp-image-1240"
                             alt="Happy students graduating from university"                            
                             sizes="(max-width: 853px) 100vw, 853px">
