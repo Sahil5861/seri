@@ -242,7 +242,7 @@
 @section('main_content') 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 <div data-elementor-type="wp-post" data-elementor-id="436" class="elementor elementor-436 elementor-304">        
-    <section class="banner-2" style="background-image: url('../images/electronics_eng.jpg');">
+    <section class="banner-2" style="background-image: url('../images/electronics_eng.webp');">
     {{-- <section class="banner" style="background: url('https://img.freepik.com/free-photo/am-i-doing-it-right-group-young-people-casual-clothes-working-modern-office_146671-16514.jpg?t=st=1744697523~exp=1744701123~hmac=87266e614c22534b02b99280d888c635337c4490a32f5f6adbdc0e411da6aa28&w=996') no-repeat center center / cover;"> --}}
         <div class="banner-content2">
             <h1 style="">Electronics and Communication Engineering</h1>            
@@ -299,12 +299,12 @@
             <h3>Program Accreditations</h3>
             <div class="accreditation-logos">
               <div class="accreditation-item">
-                <img src="{{asset('accresiations/image1.png')}}" alt="NAAC A+">
+                <img src="{{asset('accresiations/image1.webp')}}" alt="NAAC A+">
                 <p>Approved by the AICTE, India</p>
                 
               </div>
               <div class="accreditation-item">
-                <img style="margin-top:13px;" src="{{asset('accresiations/image2.png')}}" alt="UGC Entitled" width="90">
+                <img style="margin-top:13px;" src="{{asset('accresiations/image2.webp')}}" alt="UGC Entitled" width="90">
                 <p>Affiliated with Dr. A.P.J. Abdul Kalam Technical University</p>
               </div>      
             </div>

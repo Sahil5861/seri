@@ -247,7 +247,7 @@
 @section('main_content') 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 <div data-elementor-type="wp-post" data-elementor-id="436" class="elementor elementor-436 elementor-304">        
-    <section class="banner-2 baner-dark" style="background-image: url('../images/csit_banner.jpg');">
+    <section class="banner-2 baner-dark" style="background-image: url('../images/csit_banner.webp');">
         <div class="banner-content2">
             <h1 style="">Computer Science & IT: Code the Future. Build the World.</h1>            
             <p style="color:#fff;"><i> "Master the theory and application of computing. From algorithms to cloud computing, shape tomorrow's technology."</i></p>
@@ -302,12 +302,12 @@
             <h3>Program Accreditations</h3>
             <div class="accreditation-logos">
               <div class="accreditation-item">
-                <img src="{{asset('accresiations/image1.png')}}" alt="NAAC A+">
+                <img src="{{asset('accresiations/image1.webp')}}" alt="NAAC A+">
                 <p>Approved by the AICTE, India</p>
                 
               </div>
               <div class="accreditation-item">
-                <img style="margin-top:13px;" src="{{asset('accresiations/image2.png')}}" alt="UGC Entitled" width="90">
+                <img style="margin-top:13px;" src="{{asset('accresiations/image2.webp')}}" alt="UGC Entitled" width="90">
                 <p>Affiliated with Dr. A.P.J. Abdul Kalam Technical University</p>
               </div>      
             </div>
