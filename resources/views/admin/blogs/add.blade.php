@@ -78,7 +78,7 @@
                                 <div class="col-lg-6">
                                     <div class="form-group">
                                         <label>Select Blog Image <span class="astrick">*</span></label>
-                                        <input type="file" class="form-control" name="image" accept="image/*">
+                                        <input type="file" class="form-control" name="image" accept="image/*" required>
                                         @error('image')
                                             <span class="text-danger">{{$message}}</span>
                                         @enderror

@@ -377,7 +377,7 @@
             
             <div class="content" id="curriculum_structure">
                 <h2>Curriculum Structure</h2>
-                <p>SERI’s curriculum offers specialty courses that prepare students with the skills to solve complex real-world problems. These includes: </p>
+                <p>{{env('COLLEGE_NAME')}}'s curriculum offers specialty courses that prepare students with the skills to solve complex real-world problems. These includes: </p>
                 <strong>Core and Advanced Topics</strong>
                 Core courses, such as:
 

@@ -178,6 +178,10 @@
             color: red;
         }
 
+        .banner-content{
+            min-width: 1000px !important;
+        }
+
     
         
 
@@ -257,8 +261,7 @@
     {{-- here it is --}}      
     <section class="banner banner-dark" style="background: url('../images/privacy-policy.jpg') no-repeat center center / cover;">
         <div class="banner-content">
-            <h1 style="">Privacy Policy for {{env('COLLEGE_NAME_MID')}} Engineering and Research Institute (SERI)</h1>            
-            <h4>Commitment to Privacy at {{env('COLLEGE_NAME_MID')}} Engineering and Research Institute (SERI)</h4>
+            <h1 style="">Privacy Policy for {{env('COLLEGE_NAME')}}  (SERI)</h1>                        
             {{-- <p style="color:#fff;"><i>We appreciate your cooperation in adhering to these guidelines.</i></p> --}}
         </div>
     </section>
@@ -286,13 +289,14 @@
         <div class="row d-flex flex-column-reverse flex-lg-row">
             <div class="col-lg-12 main" style="font-family:Arial, Helvetica, sans-serif;">                
                 <div class="content"> 
-                    <p>At {{env('COLLEGE_NAME_MID')}} Engineering and Research Institute (SERI), we are profoundly committed to upholding the privacy and security of your personal information. This Privacy Policy delineates the methodologies through which we collect, utilize, disclose, and safeguard your data during your interactions with our website, services, and academic programs.</p>
+                    <h4>Commitment to Privacy at {{env('COLLEGE_NAME')}}</h4>
+                    <p>At {{env('COLLEGE_NAME')}}, we are profoundly committed to upholding the privacy and security of your personal information. This Privacy Policy delineates the methodologies through which we collect, utilize, disclose, and safeguard your data during your interactions with our website, services, and academic programs.</p>
                     <p>We strongly encourage you to review this policy comprehensively to understand our institutional practices concerning your personal data.</p>
                 </div>
                       
                 <div class="content"> 
                     <h4>Our Foundation: R D EDUCATIONAL INSTITUTES PRIVATE LIMITED</h4>                   
-                    <p>{{env('COLLEGE_NAME_MID')}} Engineering and Research Institute (SERI) operates under the esteemed patronage and guiding principles of <strong>R D EDUCATIONAL INSTITUTES PRIVATE LIMITED.</strong> This trust is dedicated to fostering excellence in education and research, aligning with our vision to empower future generations through knowledge and innovation. Our commitment to privacy is deeply rooted in the values upheld by the trust, ensuring a secure and transparent environment for all our stakeholders.</p>
+                    <p>{{env('COLLEGE_NAME')}} operates under the esteemed patronage and guiding principles of <strong>R D EDUCATIONAL INSTITUTES PRIVATE LIMITED.</strong> This trust is dedicated to fostering excellence in education and research, aligning with our vision to empower future generations through knowledge and innovation. Our commitment to privacy is deeply rooted in the values upheld by the trust, ensuring a secure and transparent environment for all our stakeholders.</p>
                 </div>
             
                 <div class="content">
@@ -328,7 +332,7 @@
 
                 <div class="content" id="introduction">
                     <h4>1. Introduction</h4>
-                    <p>This Privacy Policy describes how {{env('COLLEGE_NAME_MID')}} Engineering and Research Institute-SERI and its affiliated entities (collectively "the Institution," "we," "our," "us"), operating <a href="seri.net.in">seri.net.in</a> (hereinafter referred to as "the Platform"), under the trust of <strong>R D EDUCATIONAL INSTITUTES PRIVATE LIMITED</strong>, collect, utilize, share, protect, and otherwise process your information/personal data through our website <a href="https://www.seri.net.in">https://www.seri.net.in</a>. It is important to note that certain sections of the Platform may be accessed without formal registration. Our current scope of services is confined to India, and consequently, your personal data will primarily be stored and processed within India.</p>
+                    <p>This Privacy Policy describes how {{env('COLLEGE_NAME')}} and its affiliated entities (collectively "the Institution," "we," "our," "us"), operating <a href="seri.net.in">seri.net.in</a> (hereinafter referred to as "the Platform"), under the trust of <strong>R D EDUCATIONAL INSTITUTES PRIVATE LIMITED</strong>, collect, utilize, share, protect, and otherwise process your information/personal data through our website <a href="https://www.seri.net.in">https://www.seri.net.in</a>. It is important to note that certain sections of the Platform may be accessed without formal registration. Our current scope of services is confined to India, and consequently, your personal data will primarily be stored and processed within India.</p>
                     <p>By accessing this Platform, furnishing your information, or availing any product/service offered herein, you unequivocally agree to be bound by the stipulations of this Privacy Policy, the Terms of Use, and all applicable service/product terms and conditions. Furthermore, you consent to be governed by the laws of India, including but not limited to the statutes pertaining to data protection and privacy. Should you not concur with these terms, we respectfully request that you refrain from using or accessing our Platform.</p>
                     <p>This Privacy Policy is effective as of May 30, 2025.</p>
                 </div>

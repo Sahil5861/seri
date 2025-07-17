@@ -344,7 +344,7 @@
         <section>
             <div class="content" id="About_the_programme">
                 <h2>About the Program</h2>
-                <p><strong>Core Focus :</strong> SERI's B.Tech. in Electronics & Communication Engineering program prepares students for impactful careers in the rapidly evolving world of electronics and communication. The program provides a strong foundation in math and
+                <p><strong>Core Focus :</strong> {{env('COLLEGE_NAME')}}'s B.Tech. in Electronics & Communication Engineering program prepares students for impactful careers in the rapidly evolving world of electronics and communication. The program provides a strong foundation in math and
                     science, and emphasizes the development of complex electronic devices, circuits, and systems. Students will gain expertise in areas like microelectronics, communication techniques, networks, and telecommunication systems. 
                 </p>
 

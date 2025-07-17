@@ -285,7 +285,7 @@
         <div class="row d-flex flex-column-reverse flex-lg-row">
             <div class="col-lg-12 main" style="font-family:Arial, Helvetica, sans-serif;">                
                 <div class="content"> 
-                    <h1>{{env('COLLEGE_NAME_MID')}} Engineering and Research Institute (SERI) - Fees</h1>
+                    <h1>{{env('COLLEGE_NAME')}} Engineering and Research Institute (SERI) - Fees</h1>
                     <h4>B.Tech Program Fee Structure</h4>
                     <p>The general annual fee for B.Tech programs at {{env('COLLEGE_NAME_MID')}} Engineering and Research Institute (SERI) is INR 1.25 Lakhs per annum*.</p>
                     <p><strong><sup>*</sup>Important Note on Fee Structure:</strong> The fee of INR 1.25 Lakhs per annum is an indicative figure and represents the general academic tuition fee. This amount typically excludes other potential charges such as examination fees, hostel accommodation fees, transportation costs, security deposits (caution money), development fees, or other miscellaneous expenses. The comprehensive and precise breakdown of all applicable fees and charges will be officially communicated to applicants at the time of admission or through the official admission brochure for the respective academic year. Fees are subject to review and revision as per the Institute's financial policies and directives from regulatory bodies like AICTE.</p>

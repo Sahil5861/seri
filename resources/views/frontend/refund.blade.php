@@ -257,7 +257,7 @@
     {{-- here it is --}}      
     <section class="banner banner-dark" style="background: url('../images/refund.jpg') no-repeat center center / cover;">
         <div class="banner-content">
-            <h1 style="">SERI Refund Policy</h1>   
+            <h1 style="">Refund Policy for B.Tech Admissions</h1>   
             <p style="color:#fff;"><i>Understanding Your Financial Safeguards</i></p>
         </div>
     </section>
@@ -285,8 +285,7 @@
         <div class="row d-flex flex-column-reverse flex-lg-row">
             <div class="col-lg-12 main" style="font-family:Arial, Helvetica, sans-serif;">                
                 <div class="content"> 
-                    <h1>{{env('COLLEGE_NAME_MID')}} Engineering and Research Institute (SERI) - Refund Policy</h1>
-                    <h4>Refund Policy for B.Tech Admissions</h4>
+                    <h1>{{env('COLLEGE_NAME_MID')}} Engineering and Research Institute (SERI) - Refund Policy</h1>                    
                     <p>{{env('COLLEGE_NAME_MID')}} Engineering and Research Institute maintains its refund policies in accordance with applicable regulatory guidelines and institutional discretion.</p>
                     <ul>
                         <li><strong>General Refund Guidelines: </strong>Any refund requests for B.Tech admissions will be processed strictly in accordance with the prevailing norms and timelines set by regulatory bodies such as AICTE, and the specific policies of {{env('COLLEGE_NAME_MID')}} Engineering and Research Institute(The refund amount will be credited within 4 - 5 business days on the original payment method).</li>

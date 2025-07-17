@@ -579,7 +579,7 @@
                     data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;}"
                     data-widget_type="heading.default">
                     <div class="elementor-widget-container">
-                        <p class="">{{env('COLLEGE_NAME_MID')}} ENGINEERING & RESEARCH INSTITUTE , the best engineering college in the region was established with the objective of providing quality technical education with adequate industrial exposure than any other engineering colleges in North India , caters the needs of the youth with its innovative teaching methods.</p>                        
+                        <p class="">{{env('COLLEGE_NAME')}} , the best engineering college in the region was established with the objective of providing quality technical education with adequate industrial exposure than any other engineering colleges in North India , caters the needs of the youth with its innovative teaching methods.</p>                        
                         <p class="">Apart from interactive classroom scenario, periodic guest lectures by experts from industries and academic background provides thirst to the students to learn and to prepare for the ready-to-serve industrial requirements with uncompromised professional ethics.</p>
                     </div>
                 </div>                
@@ -1107,7 +1107,7 @@
                     data-id="d48357f" data-element_type="widget" data-widget_type="text-editor.default">
                     <div class="elementor-widget-container">
                         <p>
-                            With the dynamic changes in our world today, the traditional models of education do not adequately cater to the student’s practical and global learning. The questions of career readiness and employability only make these challenges worse. At {{env('COLLEGE_NAME_SHORT')}}, we have developed an innovative curriculum powered by AI and integrated with NEP 2020, that integrates modern science with Indian traditional knowledge, solving these issues. Our {{env('COLLEGE_NAME_SHORT')}} curriculum prepares students for industries with its practical and skill-based education. In addition, our students are well supported by career and placement services that offer guidance for internships and mentorships with industry professionals, which helps our students excel in their professional endeavors
+                            With the dynamic changes in our world today, the traditional models of education do not adequately cater to the student’s practical and global learning. The questions of career readiness and employability only make these challenges worse. At {{env('COLLEGE_NAME')}}, we have developed an innovative curriculum powered by AI and integrated with NEP 2020, that integrates modern science with Indian traditional knowledge, solving these issues. Our {{env('COLLEGE_NAME')}} curriculum prepares students for industries with its practical and skill-based education. In addition, our students are well supported by career and placement services that offer guidance for internships and mentorships with industry professionals, which helps our students excel in their professional endeavors
                         </p>
                     </div>
                 </div>
@@ -1619,7 +1619,7 @@
 
             <div class="video-overlay">
                 <h2 class="text-center mt-6">Step Inside Our World <br> To Get World-class Campus Experience</h2>
-                <p class="text-center">{{env('COLLEGE_NAME_MID')}} Engineering and Research Institute is a place where innovation meets ambition— <br>cutting-edge labs, industry-driven learning, and a campus built for future pioneers.</p>
+                <p class="text-center">{{env('COLLEGE_NAME')}} Engineering and Research Institute is a place where innovation meets ambition— <br>cutting-edge labs, industry-driven learning, and a campus built for future pioneers.</p>
             </div>
         </div>
     </div>
@@ -1938,7 +1938,7 @@
                         <div class="elementor-element elementor-element-8a8a63b elementor-widget elementor-widget-text-editor"
                             data-id="8a8a63b" data-element_type="widget" data-widget_type="text-editor.default">
                             <div class="elementor-widget-container">
-                                <p>The campus life at SERI is vibrant and useful in molding the day-to-day experience of students. Some of these are:</p>
+                                <p>The campus life at {{env('COLLEGE_NAME')}} is vibrant and useful in molding the day-to-day experience of students. Some of these are:</p>
                                 <ul style="color: #fff; font-size:16px;">
                                     <li>Hostels with separate facilities for boys & girls with modern amenities.</li>
                                     <li>Many sports and recreational facilities, including indoor and outdoor sports.</li>

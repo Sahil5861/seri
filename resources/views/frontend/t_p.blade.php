@@ -286,20 +286,20 @@
         {{-- <p style="font-family: Arial, Helvetica, sans-serif; margin: 30px 0 50px 0;">HOME > <span class="text-primary">ADMISSIONS</span></p> --}}
         <div class="row d-flex flex-column-reverse flex-lg-row">
             <div class="col-lg-12 main" style="font-family:Arial, Helvetica, sans-serif;">
-                <h1 style="margin:20px 0; font-weight:100; line-height:1.6;">SERI Training & Placement <br> Empowering Careers, Launching Futures</h1>                                
+                <h1 style="margin:20px 0; font-weight:100; line-height:1.6;">{{env('COLLEGE_NAME')}} Training & Placement <br> Empowering Careers, Launching Futures</h1>                                
                 <br>
-                <h5>SERI is dedicated to bridging the gap between academia and industry, ensuring our graduates are ready to excel in their chosen fields</h5>
+                <h5>{{env('COLLEGE_NAME')}} is dedicated to bridging the gap between academia and industry, ensuring our graduates are ready to excel in their chosen fields</h5>
                 <br>
 
-                <p>Looking for a future beyond just a degree and job? Then, come be a part of SERI’s R&D Cell and co-create next-gen products and systems with innovators in academia and industry.</p>
+                <p>Looking for a future beyond just a degree and job? Then, come be a part of {{env('COLLEGE_NAME')}} R&D Cell and co-create next-gen products and systems with innovators in academia and industry.</p>
                 <br>
                 <div class="content"> 
                     <h4>Seamless Transition to the Industry</h4>                   
                     
                     <ul>
-                        <li style="list-style: disc;">At SERI, we offer a dynamic blend of ‘Training and Placement’ strategies designed to empower learners to secure their dream jobs.</li>
+                        <li style="list-style: disc;">At {{env('COLLEGE_NAME')}}, we offer a dynamic blend of ‘Training and Placement’ strategies designed to empower learners to secure their dream jobs.</li>
                         <li style="list-style: disc;">This unique integrated approach is woven into the academic fabric from Year One, ensuring that learners develop not just technical prowess but also the soft skills crucial for professional success. </li>                        
-                        <li style="list-style: disc;">With faculty who bring extensive industrial experience to the classroom, SERI is more than an institution; it’s a launch pad for super dream offers and illustrious careers.</li>
+                        <li style="list-style: disc;">With faculty who bring extensive industrial experience to the classroom, {{env('COLLEGE_NAME')}} is more than an institution; it’s a launch pad for super dream offers and illustrious careers.</li>
                     </ul>
                 </div>
 
@@ -315,8 +315,8 @@
 
                 
                 <div class="content">
-                    <h4>SERI's Vision and Mission for Training & Placement</h4>
-                    <p><strong>Vision:</strong> The Vision of the Training & Placement Department at SERI is to be a beacon of empowerment, guiding students towards their fullest potential. We strive to not only educate and advise but also to create a bridge to opportunities that catalyze career growth.</p>
+                    <h4>{{env('COLLEGE_NAME')}}'s Vision and Mission for Training & Placement</h4>
+                    <p><strong>Vision:</strong> The Vision of the Training & Placement Department at {{env('COLLEGE_NAME')}} is to be a beacon of empowerment, guiding students towards their fullest potential. We strive to not only educate and advise but also to create a bridge to opportunities that catalyze career growth.</p>
                     <p>Our goal is to facilitate the intellectual, social, and personal transformations of our students, preparing them to be leaders and innovators in their chosen fields. Through dedicated support and strategic partnerships, we aim to unlock every student’s potential, ensuring they are well-equipped for the challenges and opportunities of the future.</p>
                     <strong>Mission</strong>
                     <ul>

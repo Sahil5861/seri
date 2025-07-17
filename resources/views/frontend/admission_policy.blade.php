@@ -333,7 +333,7 @@
                     <h4>Admission Process</h4>                   
                     <h5>Category-I:</h5>
                     <ul>
-                        <li>Candidates who have been allotted {{env('COLLEGE_NAME_MID')}} ENGINEERING AND RESEARCH INSTITUTE through Counseling and have paid the initial fees (Rs.20000/Rs.12000) to UPTAC-2025 are required to report at the institute campus for mandatory physical reporting.  </li>
+                        <li>Candidates who have been allotted {{env('COLLEGE_NAME')}} ENGINEERING AND RESEARCH INSTITUTE through Counseling and have paid the initial fees (Rs.20000/Rs.12000) to UPTAC-2025 are required to report at the institute campus for mandatory physical reporting.  </li>
                         <li>As per the directives of AKTU/UPTAC-2025, allotment of those candidates shall be treated as cancelled who fail to report in person at the SERI campus or fail to complete all four requisite steps (including fee deposit) of the reporting process within the specified time limit and schedule.  </li>
                         <li>No request for extension of reporting time shall be entertained.  </li>
                     </ul>

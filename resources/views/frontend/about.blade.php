@@ -46,7 +46,7 @@
                             data-settings="{&quot;_animation&quot;:&quot;fadeInRight&quot;}"
                             data-widget_type="text-editor.default">
                             <div class="elementor-widget-container">
-                                <p>At {{env('COLLEGE_NAME_SHORT')}}, we teach and transform. We inspire the next generation of engineers and innovators to break boundaries, think creatively, solve real-world problems, and take tangible steps toward a better future for mankind. </p>
+                                <p>At {{env('COLLEGE_NAME')}}, we teach and transform. We inspire the next generation of engineers and innovators to break boundaries, think creatively, solve real-world problems, and take tangible steps toward a better future for mankind. </p>
                             </div>
                         </div>
                     </div>
@@ -101,7 +101,7 @@
                 <div class="elementor-element elementor-element-4dfb54b elementor-widget elementor-widget-text-editor"
                     data-id="4dfb54b" data-element_type="widget" data-widget_type="text-editor.default">
                     <div class="elementor-widget-container">
-                        <p>Programs in engineering and technology at {{env('COLLEGE_NAME_MID')}} go beyond textbooks to hone the skills necessary for pursuing science and mathematics. We bring together theoretical study with hands-on experience, a unique combination enhanced by partnership with:</p>                                                                        
+                        <p>Programs in engineering and technology at {{env('COLLEGE_NAME')}} go beyond textbooks to hone the skills necessary for pursuing science and mathematics. We bring together theoretical study with hands-on experience, a unique combination enhanced by partnership with:</p>                                                                        
                         <ul>
                             <li>Advanced labs and research centers.</li>
                             <li>Industry partnerships for real experience.</li>
@@ -109,8 +109,8 @@
                         </ul>
                                                                         
 
-                        <p>{{env('COLLEGE_NAME_SHORT')}} offers undergraduate and postgraduate programs in engineering and technology with modern laboratories, highly-equipped research facilities, and experienced faculty members.</p>
-                        <p>SERI, approved by AICTE (All India Council for Technical Education) in New Delhi and affiliated with AKTU (Dr. A.P.J. Abdul Kalam Technical University) in Lucknow, offers world-class education. Our institute upholds the highest standards, empowering students with industry-aligned knowledge and skills for future success.</p>                        
+                        <p>{{env('COLLEGE_NAME')}} offers undergraduate and postgraduate programs in engineering and technology with modern laboratories, highly-equipped research facilities, and experienced faculty members.</p>
+                        <p>{{env('COLLEGE_NAME')}}, approved by AICTE (All India Council for Technical Education) in New Delhi and affiliated with AKTU (Dr. A.P.J. Abdul Kalam Technical University) in Lucknow, offers world-class education. Our institute upholds the highest standards, empowering students with industry-aligned knowledge and skills for future success.</p>                        
                     </div>
                 </div>
                 {{-- <div class="elementor-element elementor-element-40d9029 elementor-widget elementor-widget-button"
@@ -266,7 +266,7 @@
                 <div class="elementor-element elementor-element-baaa77e elementor-widget elementor-widget-text-editor"
                     data-id="baaa77e" data-element_type="widget" data-widget_type="text-editor.default">
                     <div class="elementor-widget-container">
-                        <p>The {{env('COLLEGE_NAME')}} ({{env('COLLEGE_NAME_SHORT')}}) regards education as the basis on which a sustainable future can be constructed. Our vision surpasses the mandated parameters of delivering knowledge and extends to embracing the responsibility of building future leaders for the emerging better world. Our programs align with the 2030 Agenda for Education and the National Education Policy (NEP) 2020, aimed at providing inclusive, equitable, and lifelong learning opportunities.</p>
+                        <p>The {{env('COLLEGE_NAME')}} regards education as the basis on which a sustainable future can be constructed. Our vision surpasses the mandated parameters of delivering knowledge and extends to embracing the responsibility of building future leaders for the emerging better world. Our programs align with the 2030 Agenda for Education and the National Education Policy (NEP) 2020, aimed at providing inclusive, equitable, and lifelong learning opportunities.</p>
                     </div>
                 </div>
             </div>
@@ -282,7 +282,7 @@
                 <div class="elementor-element elementor-element-dd66122 elementor-widget elementor-widget-text-editor"
                     data-id="dd66122" data-element_type="widget" data-widget_type="text-editor.default">
                     <div class="elementor-widget-container">
-                        <p>At the SERI we are forward-looking, pioneering engineering education, research, leading edge facilities, competency, and international presence; ensuring industry driven, global-ready programs of the highest standard within a uniquely industrially relevant environment</p>                        
+                        <p>At the {{env('COLLEGE_NAME')}} we are forward-looking, pioneering engineering education, research, leading edge facilities, competency, and international presence; ensuring industry driven, global-ready programs of the highest standard within a uniquely industrially relevant environment</p>                        
                     </div>
                 </div>
             </div>
@@ -431,7 +431,7 @@
                         data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;}"
                         data-widget_type="text-editor.default">
                         <div class="elementor-widget-container">
-                            <p>The {{env('COLLEGE_NAME_SHORT')}} aims to develop global mindsets along with technological development. With the cutting-edge engineering education and foreign collaborations offered by the institute, students understand the global challenges in a better way. </p>
+                            <p>The {{env('COLLEGE_NAME')}} aims to develop global mindsets along with technological development. With the cutting-edge engineering education and foreign collaborations offered by the institute, students understand the global challenges in a better way. </p>
                         </div>
                     </div>
                     <div class="elementor-element elementor-element-792b5c2 elementor-align-center elementor-invisible elementor-widget elementor-widget-button"

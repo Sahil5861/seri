@@ -344,10 +344,10 @@
         <section>
             <div class="content" id="About_the_programme">
                 <h2>About the Programme</h2>
-                <p>SERI's B.Tech. in Computer Science and Engineering (AI/ML) program is geared toward providing students with deeper understanding and specialization in Artificial Intelligence (AI) and Machine Learning (ML), two disruptive technologies that will have an impact on the future of many industries. </p>
+                <p>{{env('COLLEGE_NAME')}}'s B.Tech. in Computer Science and Engineering (AI/ML) program is geared toward providing students with deeper understanding and specialization in Artificial Intelligence (AI) and Machine Learning (ML), two disruptive technologies that will have an impact on the future of many industries. </p>
                 <p>This program is both interdisciplinary and applied; students will consider the role of AI in advancing particularly important technologies, including self-driving cars, AI-controlled drones, and smart-living improvements to life. </p>
                 <p>Students will also examine leading issues such as AI-powered transaction security; personalized medicine to individuals; and predictive analytics that promote business leadership and sales. </p>
-                <p>Graduating students from SERI will be ready to participate in leading advances in AI and ML, and this will be true because of SERI's focus on innovation and excellence.</p>                
+                <p>Graduating students from {{env('COLLEGE_NAME')}} will be ready to participate in leading advances in AI and ML, and this will be true because of {{env('COLLEGE_NAME')}}'s focus on innovation and excellence.</p>                
             </div>
 
             <div class="content" id="eligibility">

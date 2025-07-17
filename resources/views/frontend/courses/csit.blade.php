@@ -347,7 +347,7 @@
         <section>
             <div class="content" id="About_the_programme">
                 <h2>About the Program</h2>
-                <p>The Computer Science & Information Technology program at SERI integrates the core principles of computer science with IT. The Computer Science (CS) and Information Technology (IT) program is designed to provide students with a comprehensive understanding of both the theoretical and practical aspects of computing. </p>
+                <p>The Computer Science & Information Technology program at {{env('COLLEGE_NAME')}} integrates the core principles of computer science with IT. The Computer Science (CS) and Information Technology (IT) program is designed to provide students with a comprehensive understanding of both the theoretical and practical aspects of computing. </p>
                 <p>It covers core computer science concepts, including algorithms, data structures, computer organization, operating systems, databases, and computer networks. Additionally, the program delves into IT-specific areas such as cloud computing and cybersecurity.</p>                
                 
             </div>
@@ -363,7 +363,7 @@
                     <strong>Admission Basis : </strong>
                     <ul>
                         <li style="list-style:circle;">Admission is primarily granted based on the scores achieved in the <b>JEE Mains,CUET score,or state entrance exam. </b></li>
-                        <li style="list-style:circle;">Candidates can alternatively apply for Management quota if he/she has not appeared in any entrance through SERi entrance exam .</li>
+                        <li style="list-style:circle;">Candidates can alternatively apply for Management quota if he/she has not appeared in any entrance through {{env('COLLEGE_NAME')}} entrance exam .</li>
                     </ul>
 
                 </li>
@@ -432,7 +432,7 @@
             <div class="content" id="pos">
                 <h2>Program Specific Outcomes (PSOs)</h2>   
                 
-                <p>Graduates of the Computer Science and Information Technology program at SERI will be able to:</p>
+                <p>Graduates of the Computer Science and Information Technology program at {{env('COLLEGE_NAME')}} will be able to:</p>
                 
                 <li>Specialize in the areas of network security, database management, and software solutions.</li>
                 <li>Develop and manage IT infrastructure, ensuring secure and efficient operations.</li>
