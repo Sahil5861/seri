@@ -323,7 +323,7 @@
             <div class="col-lg-12 main" style="font-family:Arial, Helvetica, sans-serif;">                
                 <div class="content">
                     <h4>B.Tech Admissions</h4>                   
-                    <p>SERI offers admissions to its B.Tech programs through the following criteria:  </p>
+                    <p>{{env('COLLEGE_NAME')}} offers admissions to its B.Tech programs through the following criteria:  </p>
                     <ul style="list-style: disc;">
                         <li>AKTU Counseling / JEE Mains Rank / CUET Rank  </li>
                         <li>Candidates must have passed Class 12 from UP board/ CBSE or any other equivalent board with Physics, Chemistry and Mathematics as compulsory subjects and a minimum of 45% aggregate in Class 12 (40% for SC/ ST candidates)  </li>

@@ -285,11 +285,11 @@
         {{-- <p style="font-family: Arial, Helvetica, sans-serif; margin: 30px 0 50px 0;">HOME > <span class="text-primary">ADMISSIONS</span></p> --}}
         <div class="row d-flex flex-column-reverse flex-lg-row">
             <div class="col-lg-12 main" style="font-family:Arial, Helvetica, sans-serif;">
-                <h1 style="margin:20px 0; font-weight:100; line-height:1.6;">SERI - Anti-Ragging Policy</h1>                
+                <h1 style="margin:20px 0; font-weight:100; line-height:1.6;">{{env('COLLEGE_NAME')}} - Anti-Ragging Policy</h1>                
                 <h5><i>"Ragging is a Criminal Offense. Ragging is Strictly Prohibited."</i></h5>
 
-                <h6><b>SERI follows a ZERO TOLERANCE APPROACH TOWARDS RAGGING, PHYSICAL or MENTAL ABUSE. </b></h6>
-                <p>At SERI, we are committed to fostering an environment that is safe, respectful, and inclusive for all students. We will not tolerate ragging in any form and strictly comply with the State Government and Central Government guidelines and regulations to eliminate this negative practice.</p>                
+                <h6><b>{{env('COLLEGE_NAME')}} follows a ZERO TOLERANCE APPROACH TOWARDS RAGGING, PHYSICAL or MENTAL ABUSE. </b></h6>
+                <p>At {{env('COLLEGE_NAME')}}, we are committed to fostering an environment that is safe, respectful, and inclusive for all students. We will not tolerate ragging in any form and strictly comply with the State Government and Central Government guidelines and regulations to eliminate this negative practice.</p>                
 
                 <p>The policy aims to create an educational, living environment that is free from intimidation, hostility or abuse ensuring a congenial environment for all.</p>
                 <br>
@@ -305,7 +305,7 @@
                         <li style="list-style: upper-alpha;">Submission of Investigation report by the Anti-Ragging Committee with penalization which could be suspension/rustication or other measures as deemed fit</li>
                     </ul>
 
-                    <strong>SERI’s Established Anti-Ragging Committee</strong>
+                    <strong>{{env('COLLEGE_NAME')}}’s Established Anti-Ragging Committee</strong>
                     <p>We critically ensure compliance with all anti-ragging laws and regulations that are in effect, and actively monitor and oversee the prevention of ragging at the institution.</p>
 
                     {{-- <table class="table table-stripped">
@@ -364,7 +364,7 @@
 
                 <div class="content">
                     <h4>Guaranteeing Fast and Fair Resolution</h4>
-                    <p>SERI is dedicated to ensuring a prompt and fair resolution of all reported cases of ragging. The internal enquiry process by the institution will begin and will be concluded without delay on no occasion later than seven days from the occurrence being reported.</p>
+                    <p>{{env('COLLEGE_NAME')}} is dedicated to ensuring a prompt and fair resolution of all reported cases of ragging. The internal enquiry process by the institution will begin and will be concluded without delay on no occasion later than seven days from the occurrence being reported.</p>
 
                     <ul>
                         <li><strong>The Role of an Anti-Ragging Committee in the Enquiry:</strong> The Anti-Ragging Committee will undertake an enquiry into all instances of ragging referred to it by the Head of the Institution, or upon receiving any information pertaining to such an incident.</li>
@@ -373,7 +373,7 @@
                         <li><strong>Consideration of All Relevant Evidence:</strong> The Committee will take careful consideration and review all evidence presented and any other relevant issues as appropriate.</li>
                         <li><strong>Recommendations to the Head:</strong> Upon consideration of the enquiry, the Anti-Ragging Committee will write a full report with their recommendations and submit the report to the Head for appropriate action.</li>
                     </ul>
-                    <p>SERI is committed to ensuring that every student can learn and develop in a safe and supportive environment that is free of ragging. We invite all students to report any incidents of ragging without fear. Your physical and psychological safety and well-being is our primary concern.</p>
+                    <p>{{env('COLLEGE_NAME')}} is committed to ensuring that every student can learn and develop in a safe and supportive environment that is free of ragging. We invite all students to report any incidents of ragging without fear. Your physical and psychological safety and well-being is our primary concern.</p>
                 </div>
 
 

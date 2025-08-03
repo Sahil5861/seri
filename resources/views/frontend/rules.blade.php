@@ -360,7 +360,7 @@
 
                 <div class="content">
                     <h4>F. Technology Use</h4>
-                    <li>While SERI recognizes the importance of technology in modern education, the use of cell phones during class hours is strictly prohibited to minimize distractions and maintain a focused learning environment</li>
+                    <li>While {{env('COLLEGE_NAME')}} recognizes the importance of technology in modern education, the use of cell phones during class hours is strictly prohibited to minimize distractions and maintain a focused learning environment</li>
                     <li>Students are expected to use college computer and internet resources responsibly and ethically, adhering to all institutional policies regarding online behavior.</li>
                     <li>Any misuse of technology, including but not limited to cyberbullying, unauthorized access to systems, or distribution of inappropriate content, will result in disciplinary action.</li>
                 </div>
@@ -369,7 +369,7 @@
                     <h4>G. General Conduct and Discipline</h4>
                     <li>Students are expected to conduct themselves with respect and courtesy towards faculty, staff, and fellow students at all times.</li>
                     <li>Any form of disruptive behavior, including but not limited to shouting, loitering in unauthorized areas, or causing disturbances in classrooms or the library, is strictly prohibited.</li>
-                    <li>SERI maintains a zero-tolerance policy towards ragging. Any student involved in ragging will face severe disciplinary action, including the possibility of expulsion and legal consequences. </li>
+                    <li>{{env('COLLEGE_NAME')}} maintains a zero-tolerance policy towards ragging. Any student involved in ragging will face severe disciplinary action, including the possibility of expulsion and legal consequences. </li>
                     <li>Students are responsible for maintaining cleanliness of the campus and its facilities. Littering, vandalism, or damage to college property will not be tolerated.</li>
                     <li>Violation of any of these rules and regulations may result in disciplinary action, the severity of which will be determined by the institution based on the nature of the offense.</li>
                 </div>

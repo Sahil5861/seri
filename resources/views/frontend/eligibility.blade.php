@@ -286,7 +286,7 @@
         <div class="row d-flex flex-column-reverse flex-lg-row">
             <div class="col-lg-12 main" style="font-family:Arial, Helvetica, sans-serif;">
                 <h1 style="margin:20px 0; font-weight:100; line-height:1.6;">Criteria for Admission to SERI</h1>                
-                <p>SERI welcomes innovators and leaders to join our programs of distinction (B. Tech) where you will make your mark in technology and engineering. Here is important information about specialization and the general qualifications for admission.</p>
+                <p>{{env('COLLEGE_NAME')}} welcomes innovators and leaders to join our programs of distinction (B. Tech) where you will make your mark in technology and engineering. Here is important information about specialization and the general qualifications for admission.</p>
 
                 <br>
 
@@ -310,7 +310,7 @@
                     </ul>
                 </div>
                 <div class="content"> 
-                    <h4>Specializations in B.Tech. at SERI</h4>                   
+                    <h4>Specializations in B.Tech. at {{env('COLLEGE_NAME')}}</h4>                   
                     <p>Explore a host of specializations offered that are aligned to in demand trends and career opportunities:</p>
                     <ul>
                         <li><strong>Computer Science and Engineering (CSE):</strong> Be an expert in computer programming, computer systems, and advanced software development.</li>
@@ -322,7 +322,7 @@
 
                 <div class="content">
                     <h4>Why SERI ? </h4>
-                    <p>SERI boasts an innovative, industry-aligned curriculum in a learning environment that places a premium on the whole skill development. Get started with us on realizing your potential and achieving exceptional success in Engineering.Take the first step into your future <b>—Join SERI and build on a legacy of excellence!</b></p>
+                    <p>{{env('COLLEGE_NAME')}} boasts an innovative, industry-aligned curriculum in a learning environment that places a premium on the whole skill development. Get started with us on realizing your potential and achieving exceptional success in Engineering.Take the first step into your future <b>—Join SERI and build on a legacy of excellence!</b></p>
                 </div>
                 
             </div>            

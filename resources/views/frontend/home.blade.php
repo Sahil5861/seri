@@ -2428,8 +2428,8 @@
   });
   </script>
 
-@section('target-x')
+{{-- @section('target-x')
     <script id="targetx-enquiry-script" data-context="SIMT" data-heading="Admissions Open 2025" data-bgcolor="black" src="https://enquirywidget.targetx.in/assets/7/targetx_widget.js" defer></script>
-@endsection
+@endsection --}}
   
 @endsection

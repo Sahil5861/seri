@@ -443,7 +443,7 @@
 
 
                 <div class="content">
-                    <h2>Admission Cell – SERi</h2>
+                    <h2>Admission Cell – {{env('COLLEGE_NAME')}}</h2>
                     <h4>Admission Cell: Your Gateway to a Seamless Admission Experience</h4>
 
                     <p>The college takes pride in its dedicated Admission Cell, which is committed to ensuring a smooth and transparent admission process for all prospective students. Staffed by experienced and knowledgeable professionals, the Admission Cell offers comprehensive guidance and personalized support throughout every step of the application journey.</p>
@@ -464,14 +464,14 @@
                         <li>Market Research: To conduct research on industry trends to identify potential new programs that aligns with market demand.</li>
                         <li>Data Management: To maintain and provide access to student-related data as required by the institution.</li>
                         <li>Financial Support: Making Education Accessible
-                            The Admission Cell at SERi is equipped with a dedicated Financial Assistance Support Team, committed to helping student’s access affordable education financing. This team assists applicants in securing education loans from reputable banks and NBFCs (Non-Banking Financial Companies), often at low or even zero interest rates, depending on eligibility and lender terms.
+                            The Admission Cell at {{env('COLLEGE_NAME')}} is equipped with a dedicated Financial Assistance Support Team, committed to helping student’s access affordable education financing. This team assists applicants in securing education loans from reputable banks and NBFCs (Non-Banking Financial Companies), often at low or even zero interest rates, depending on eligibility and lender terms.
                             By guiding students through the loan application process and offering tailored financial advice, the team ensures that financial constraints do not stand in the way of academic aspirations.
                             </li>
                     </ul>
                 </div>
 
                 <div class="content">
-                    <h4>SERI ADMISSION CELL STRUCTURE </h4>
+                    <h4>{{env('COLLEGE_NAME')}} ADMISSION CELL STRUCTURE </h4>
                     <table>
                         <thead>
                             <tr>

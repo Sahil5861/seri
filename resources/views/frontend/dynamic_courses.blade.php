@@ -182,7 +182,7 @@
                                                     November 29, 2023 </span>
                                             </span>
                                         </div>
-                                        <p>Dive into the dynamic world of Computer Science and Engineering at SERI! This program equips you to design, develop, and analyze versatile software and hardware solutions for business, science, and society. Explore core CSE principles alongside cutting-edge technologies. You'll gain essential skills for diverse careers like software development, hardware engineering, system design, and network administration. Our interdisciplinary approach fosters innovation and prepares you to tackle complex problems, ensuring you're ready for an engaging future in technology.  </p>
+                                        <p>Dive into the dynamic world of Computer Science and Engineering at {{env('COLLEGE_NAME')}}! This program equips you to design, develop, and analyze versatile software and hardware solutions for business, science, and society. Explore core CSE principles alongside cutting-edge technologies. You'll gain essential skills for diverse careers like software development, hardware engineering, system design, and network administration. Our interdisciplinary approach fosters innovation and prepares you to tackle complex problems, ensuring you're ready for an engaging future in technology.  </p>
                                         <div class="btn-wraper">
                                             <a class="elementskit-btn whitespace--normal" id=""
                                                 href="{{route('view-courses', 'cse')}}">
@@ -226,7 +226,7 @@
                                         </div>
 
 
-                                        <p>Shape the future of connectivity and electronic innovation with SERI's B.Tech in ECE. This program builds a strong foundation in math and science, focusing on the design and development of complex electronic devices, circuits, and communication systems. Gain expertise in microelectronics, wireless and satellite communication, computer networking, and instrumentation. Prepare for impactful careers driving advancements across diverse industries, ready to innovate in the rapidly evolving world of electronics and telecommunications.  </p>
+                                        <p>Shape the future of connectivity and electronic innovation with {{env('COLLEGE_NAME')}}'s B.Tech in ECE. This program builds a strong foundation in math and science, focusing on the design and development of complex electronic devices, circuits, and communication systems. Gain expertise in microelectronics, wireless and satellite communication, computer networking, and instrumentation. Prepare for impactful careers driving advancements across diverse industries, ready to innovate in the rapidly evolving world of electronics and telecommunications.  </p>
                                         <div class="btn-wraper">
                                             <a class="elementskit-btn whitespace--normal" id=""
                                                 href="{{route('view-courses', 'ec')}}">
@@ -269,7 +269,7 @@
                                                     November 29, 2023 </span>
                                             </span>
                                         </div>
-                                        <p>Bridge the gap between core computing principles and modern IT solutions with SERI's CS & IT program. Master theoretical foundations like algorithms, data structures, operating systems, and computer networks. Simultaneously, delve into essential IT domains such as cloud computing, cybersecurity, database management, and web development. This integrated approach prepares you to design, implement, and manage robust IT infrastructure and software systems, ensuring secure and efficient operations for real-world applications.  </p>
+                                        <p>Bridge the gap between core computing principles and modern IT solutions with {{env('COLLEGE_NAME')}}'s CS & IT program. Master theoretical foundations like algorithms, data structures, operating systems, and computer networks. Simultaneously, delve into essential IT domains such as cloud computing, cybersecurity, database management, and web development. This integrated approach prepares you to design, implement, and manage robust IT infrastructure and software systems, ensuring secure and efficient operations for real-world applications.  </p>
                                         <div class="btn-wraper">
                                             <a class="elementskit-btn whitespace--normal" id=""
                                                 href="{{route('view-courses', 'csit')}}">
@@ -313,7 +313,7 @@
                                         </div>
 
 
-                                        <p>Become a trailblazer in the transformative fields of AI and Machine Learning at SERI. This specialized B.Tech program provides a deep understanding of AI/ML technologies shaping industries. Explore applications in self-driving cars, smart living, personalized medicine, and predictive analytics. Develop the skills to create intelligent systems, predictive models, and innovative solutions through a curriculum focused on both theoretical foundations and practical application, preparing you to lead future advancements.  
+                                        <p>Become a trailblazer in the transformative fields of AI and Machine Learning at {{env('COLLEGE_NAME')}}. This specialized B.Tech program provides a deep understanding of AI/ML technologies shaping industries. Explore applications in self-driving cars, smart living, personalized medicine, and predictive analytics. Develop the skills to create intelligent systems, predictive models, and innovative solutions through a curriculum focused on both theoretical foundations and practical application, preparing you to lead future advancements.  
                                         </p>
                                         <div class="btn-wraper">
                                             <a class="elementskit-btn whitespace--normal" id=""

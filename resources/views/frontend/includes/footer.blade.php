@@ -10,9 +10,9 @@
     .btn-primary_2{
       transition: all ease 1s;
     }
-    .btn-primary_2:hover{
+    /* .btn-primary_2:hover{
       scale: 1.1;
-    }
+    } */
     footer h3 {
       color: #fff !important;
     }
